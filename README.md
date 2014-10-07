@@ -3,6 +3,8 @@ Gulp.js with ASP.NET/NancyFx
 
 A simple ASP.NET solution to showcase a Node.js-based front-end development workflow.
 
+![Gulp.js with ASP.NET/NancyFx](https://rawgit.com/icflorescu/gulp-js-with-nancy-fx/master/Web/Content/Images/logo.svg)
+
 ## The idea
 
 While Visual Studio is an excellent IDE for writing **.NET code**, its web-development features are years behind the rich ecosystem growing around [Node.js](http://nodejs.org/).
