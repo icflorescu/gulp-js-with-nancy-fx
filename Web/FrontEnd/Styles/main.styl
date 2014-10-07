@@ -1,0 +1,35 @@
+﻿@import './Includes/font-awesome.css'
+@import 'jeet/stylus/jeet'
+@import 'rupture/rupture'
+@import './Includes/config'
+@import './Includes/blockquote'
+@import './Includes/main-header'
+@import './Includes/main-footer'
+@import './Includes/awesome-icons'
+
+body
+  font 1em/1.5 'Open Sans', sans-serif
+  color color-dark-gray
+  background color-light-gray-washed
+  margin 0
+
+h1, h2, h3, h4, h5, h6
+  color color-dark-gray-washed
+
+a
+  color color-blue-jeans
+  &:visited
+    color color-blue-jeans
+  &:hover
+    color color-mint
+  &:active
+    color color-grapefruit
+
+hr
+  border none
+  height 2px
+  background color-medium-gray
+  margin 30px 0
+
+.container
+  center(960px, pad: 10px)

@@ -1,0 +1,34 @@
+﻿@inherits Nancy.ViewEngines.Razor.NancyRazorViewBase<dynamic>
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="shortcut icon" href="~/Content/Images/favicon.png" />
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400,700' rel='stylesheet'>
+        <link href="~/Content/main.css" rel="stylesheet" />
+        
+        <title>@ViewBag.Title</title>
+    </head>
+    <body>
+        <div>
+            <div class="main-header">
+                <div class="container">
+                    <h1>
+                        <a href="/" rel="home" class="main-header-home-link">Home</a>
+                        <span class="main-header-title">@ViewBag.Title</span>
+                    </h1>
+                </div>
+            </div>
+            @RenderBody()
+            <div class="main-footer">
+                <div class="container">
+                    Developed by <a href="https://github.com/icflorescu">Ionut-Cristian Florescu</a> and released under the <a href="http://opensource.org/licenses/MIT">MIT License</a>.
+                </div>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="~/Content/main.js"></script>
+    </body>
+</html>
