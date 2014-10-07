@@ -13,6 +13,7 @@ Since Node.js is working fairly well on Windows, ASP.NET projects can benefit fr
 - Visual Studio (tested on 2013);
 - [Node.js](http://nodejs.org/);
 - [Gulp](http://gulpjs.com/) installed globally: `npm i -g gulp`;
+- A local copy of this repository ([clone it](github-windows://openRepo/https://github.com/icflorescu/gulp-js-with-nancy-fx) or download the [zip archive](https://github.com/icflorescu/gulp-js-with-nancy-fx/archive/master.zip));
 
 ## Features
 
