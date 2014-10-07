@@ -26,8 +26,18 @@ Since Node.js is working fairly well on Windows, ASP.NET projects can benefit fr
 
 ## How to
 
-- The default/production gulp tasks are run automatically on Web project post-build;
-- In order to **live-reload** your changes during development, you need to have the appropriate browser extension and you **have to manually run** `gulp live` in [Web\\FrontEnd](https://github.com/icflorescu/gulp-js-with-nancy-fx/tree/master/Web/FrontEnd) folder in command prompt (just leave it open; you can stop it with `Ctrl-C` when you're done);
+- `cd` to [Web\\FrontEnd](https://github.com/icflorescu/gulp-js-with-nancy-fx/tree/master/Web/FrontEnd) and run `npm i` to install the needed NPM modules;
+- The default/production gulp tasks will be run automatically on Web project post-build;
+- In order to **[live-reload](http://livereload.com)** your changes during development you have to **manually run** `gulp live` in [Web\\FrontEnd](https://github.com/icflorescu/gulp-js-with-nancy-fx/tree/master/Web/FrontEnd) folder in command prompt (just leave it open; you can stop it with `Ctrl-C` when you're done);
+
+## Caveat
+
+NTFS filesystem has a *not-so-well-documented* limitation that will prevent you from deleting [Web\\FrontEnd](https://github.com/icflorescu/gulp-js-with-nancy-fx/tree/master/Web/FrontEnd)\\node_modules folder!
+
+However, you can use [rimraf](https://www.npmjs.org/package/rimraf) to circumvent this. Here's how:
+
+- install it globally with `npm i -g rimraf`;
+- use `rimraf folder-to-delete` in command prompt.
 
 ## References
 
