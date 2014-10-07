@@ -3,9 +3,7 @@ Gulp.js with ASP.NET/NancyFx
 
 A simple ASP.NET solution to showcase a Node.js-based front-end development workflow.
 
-<div style="min-width: 200px; margin: auto">
-  <img src="https://rawgit.com/icflorescu/gulp-js-with-nancy-fx/master/Web/Content/Images/logo.svg">
-</div>
+![Gulp.js with ASP.NET/NancyFx](https://rawgit.com/icflorescu/gulp-js-with-nancy-fx/master/Web/Content/Images/logo.svg)
 
 ## The idea
 
