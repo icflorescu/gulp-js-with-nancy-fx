@@ -37,8 +37,8 @@ Youn may want to have a look at these for additional information, tools and and 
 
 ## Endorsing the author
 
-If you find this repository useful, please [tweet about it](http://twitter.com/share?text=Using+Gulp.js+with+ASP.NET%2FNancyFx&url=https%3A%2F%2Fgithub.com%2Ficflorescu%2Fgulp-js-with-nancy-fx&hashtags=nodejs%2Cnpm%2Cgulp%2Cvisualstudio%2Cdotnet&via=icflorescu) and/or [![endorse](https://api.coderwall.com/icflorescu/endorsecount.png)](https://coderwall.com/icflorescu) me on Coderwall!
+If you find this repository useful, please [tweet about it](http://twitter.com/share?text=Here%27s+how+to+use+Gulp.js+with+ASP.NET%2FNancyFx%21&url=https%3A%2F%2Fgithub.com%2Ficflorescu%2Fgulp-js-with-nancy-fx&hashtags=nodejs%2Cnpm%2Cgulp%2Cvisualstudio%2Cdotnet&via=icflorescu) and/or [![endorse](https://api.coderwall.com/icflorescu/endorsecount.png)](https://coderwall.com/icflorescu) me on Coderwall!
 
 ## License
 
-The MIT License.
+The [MIT License](https://github.com/icflorescu/gulp-js-with-nancy-fx/blob/master/LICENSE.md).
