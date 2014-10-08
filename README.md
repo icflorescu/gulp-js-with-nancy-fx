@@ -32,13 +32,11 @@ Since Node.js is working fairly well on Windows, ASP.NET projects can benefit fr
 
 ## Caveats
 
-- NTFS filesystem has a *not-so-well-documented* limitation that will prevent you from deleting [Web\\FrontEnd](https://github.com/icflorescu/gulp-js-with-nancy-fx/tree/master/Web/FrontEnd)\\node_modules folder!
-
-  However, you can use [rimraf](https://www.npmjs.org/package/rimraf) to circumvent this. Here's how:
-
+- NTFS filesystem has a *not-so-well-documented* limitation that will prevent you from deleting [Web\\FrontEnd](https://github.com/icflorescu/gulp-js-with-nancy-fx/tree/master/Web/FrontEnd)\\node_modules folder! However, you can use [rimraf](https://www.npmjs.org/package/rimraf) to circumvent this. Here's how:
   - install it globally with `npm i -g rimraf`;
   - use `rimraf folder-to-delete` in command prompt.
 - Visual Studio severely lags behind [Sublime Text & Plugins](http://www.sublimetext.com/) regarding the ability to edit client-side specific code. Its JavaScript / CoffeeScript support is a joke and there's no support for Stylus. It may be a good idea to use Sublime Text in parallel.
+
 - It may be a good idea to instruct Visual Studio to **"show all files"** in the Web project. 
 
 ## References
