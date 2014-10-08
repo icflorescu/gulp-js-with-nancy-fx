@@ -1,5 +1,5 @@
-Gulp.js with ASP.NET/NancyFx
-============================
+Gulp.js with ASP.NET / NancyFx
+==============================
 
 A simple ASP.NET solution to showcase a Node.js-based front-end development workflow.
 
@@ -30,14 +30,14 @@ Since Node.js is working fairly well on Windows, ASP.NET projects can benefit fr
 - The default/production gulp tasks will be run automatically on Web project post-build;
 - In order to **[live-reload](http://livereload.com)** your changes during development you have to **manually run** `gulp live` in [Web\\FrontEnd](https://github.com/icflorescu/gulp-js-with-nancy-fx/tree/master/Web/FrontEnd) folder in command prompt (just leave it open; you can stop it with `Ctrl-C` when you're done);
 
-## Caveat
+## Caveats
 
-NTFS filesystem has a *not-so-well-documented* limitation that will prevent you from deleting [Web\\FrontEnd](https://github.com/icflorescu/gulp-js-with-nancy-fx/tree/master/Web/FrontEnd)\\node_modules folder!
+- NTFS filesystem has a *not-so-well-documented* limitation that will prevent you from deleting [Web\\FrontEnd](https://github.com/icflorescu/gulp-js-with-nancy-fx/tree/master/Web/FrontEnd)\\node_modules folder!
 
-However, you can use [rimraf](https://www.npmjs.org/package/rimraf) to circumvent this. Here's how:
+  However, you can use [rimraf](https://www.npmjs.org/package/rimraf) to circumvent this. Here's how:
 
-- install it globally with `npm i -g rimraf`;
-- use `rimraf folder-to-delete` in command prompt.
+  - install it globally with `npm i -g rimraf`;
+  - use `rimraf folder-to-delete` in command prompt.
 
 ## References
 
