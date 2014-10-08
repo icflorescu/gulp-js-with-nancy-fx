@@ -38,6 +38,8 @@ Since Node.js is working fairly well on Windows, ASP.NET projects can benefit fr
 
   - install it globally with `npm i -g rimraf`;
   - use `rimraf folder-to-delete` in command prompt.
+- Visual Studio severely lags behind [Sublime Text & Plugins](http://www.sublimetext.com/) regarding the ability to edit client-side specific code. Its JavaScript / CoffeeScript support is a joke and there's no support for Stylus. It may be a good idea to use Sublime Text in parallel.
+- It may be a good idea to instruct Visual Studio to **"show all files"** in the Web project. 
 
 ## References
 
